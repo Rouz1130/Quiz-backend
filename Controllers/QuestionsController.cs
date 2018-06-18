@@ -35,6 +35,9 @@ namespace quiz_backend.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] Models.Question question)
         {
+            if (id != question.ID)
+                return BadRequest();
+
             context.Entry(question).State = EntityState.Modified;
 
             await context.SaveChangesAsync();
