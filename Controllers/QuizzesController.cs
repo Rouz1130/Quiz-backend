@@ -22,11 +22,13 @@ namespace quiz_backend.Controllers
             _context = context;
         }
 
-       
+        [Authorize]
         [HttpGet]
         public IEnumerable<Quiz> GetQuiz()
         {
-            return _context.Quiz;
+            var userId = HttpContext.User.Claims.First().Value;
+          
+            return _context.Quiz.Where(q => q.OwnerId == userId);
         }
 
         [HttpGet("{id}")]
@@ -92,6 +94,8 @@ namespace quiz_backend.Controllers
             }
 
             var userId = HttpContext.User.Claims.First().Value;
+
+            quiz.OwnerId = userId;
 
             _context.Quiz.Add(quiz);
             await _context.SaveChangesAsync();
