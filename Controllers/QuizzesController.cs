@@ -91,6 +91,8 @@ namespace quiz_backend.Controllers
                 return BadRequest(ModelState);
             }
 
+            var userId = HttpContext.User.Claims.First().Value;
+
             _context.Quiz.Add(quiz);
             await _context.SaveChangesAsync();
 
