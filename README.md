@@ -12,8 +12,11 @@ ASP.NET Core 2.0, Entity Framework, Identity
 ###
 June 22, 2018&nbsp; Rouz Majlessi
 </br>
-https://github.com/Rouz1130/Quiz-angular6 
 <br/>
+https://github.com/Rouz1130/Quiz-angular6 
 Above link is for the back-end portion of this project. If you want to clone down the project you will not be able to use it without running the backend.
+<br/>
+<br/>
+Check out my portfolio
 <br/>
 www.rouzm.com
