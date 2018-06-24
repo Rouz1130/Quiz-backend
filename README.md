@@ -14,7 +14,7 @@ June 22, 2018&nbsp; Rouz Majlessi
 </br>
 <br/>
 https://github.com/Rouz1130/Quiz-angular6 
-Above link is for the back-end portion of this project. If you want to clone down the project you will not be able to use it without running the backend.
+Go to thislink is for the front end  portion of this project which is done with Angular 6.
 <br/>
 <br/>
 Check out my portfolio
