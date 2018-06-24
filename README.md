@@ -14,7 +14,7 @@ June 22, 2018&nbsp; Rouz Majlessi
 </br>
 <br/>
 https://github.com/Rouz1130/Quiz-angular6 
-Go to thislink is for the front end  portion of this project which is done with Angular 6.
+Go to this link is for the front end  portion of this project which is done with Angular 6.
 <br/>
 <br/>
 Check out my portfolio
